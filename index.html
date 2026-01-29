@@ -1,0 +1,1132 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Código Divino + Bonos | $6.90 USD</title>
+  <meta name="description" content="Comprende la Biblia con claridad, profundidad y poder espiritual. Combo completo por $6.90 USD. Acceso inmediato por Hotmart." />
+
+  <style>
+    :root{
+      --bg0:#07060a;
+      --bg1:#120b06;
+      --bg2:#1b120a;
+
+      --card: rgba(255,255,255,.06);
+      --card2: rgba(255,255,255,.085);
+      --line: rgba(255,255,255,.10);
+
+      --ink:#f6f1e7;
+      --muted: rgba(246,241,231,.78);
+
+      --gold:#ffcc66;
+      --gold2:#f3b64c;
+      --gold3:#ffd89a;
+
+      --green:#19c75b;
+
+      --shadow: 0 18px 70px rgba(0,0,0,.55);
+      --r: 22px;
+
+      --max: 1120px;
+    }
+
+    *{box-sizing:border-box}
+    html,body{margin:0; padding:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial}
+    body{
+      color:var(--ink);
+      background:
+        radial-gradient(900px 520px at 15% 12%, rgba(255,204,102,.16), transparent 60%),
+        radial-gradient(1000px 700px at 80% 20%, rgba(255,184,90,.12), transparent 62%),
+        radial-gradient(1000px 760px at 50% 95%, rgba(25,199,91,.08), transparent 60%),
+        linear-gradient(180deg, var(--bg0), var(--bg1) 45%, var(--bg2));
+      min-height:100vh;
+      overflow-x:hidden;
+    }
+
+    a{color:inherit}
+    .wrap{max-width:var(--max); margin:0 auto; padding:0 18px}
+
+    /* ====== topbar (1 botão) ====== */
+    .topbar{
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(10,7,5,.72);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    .topbarInner{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:12px;
+      padding: 12px 0;
+    }
+    .brand{display:flex; gap:12px; align-items:center; min-width: 220px}
+    .seal{
+      width:40px; height:40px; border-radius:14px;
+      background:
+        radial-gradient(circle at 30% 30%, rgba(255,255,255,.22), transparent 60%),
+        linear-gradient(135deg, rgba(255,204,102,.55), rgba(255,184,90,.12));
+      border: 1px solid rgba(255,204,102,.25);
+      box-shadow: 0 12px 35px rgba(255,204,102,.12);
+    }
+    .brand h1{margin:0; font-size:13px; letter-spacing:.5px}
+    .brand p{margin:2px 0 0; font-size:12px; color:var(--muted)}
+
+    .buyBtn{
+      appearance:none; border:0; cursor:pointer;
+      padding: 12px 16px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #20d364, #16b952);
+      color:#07130a;
+      font-weight: 950;
+      box-shadow: 0 16px 40px rgba(25,199,91,.22);
+      transition: transform .15s ease, filter .15s ease;
+      white-space:nowrap;
+    }
+    .buyBtn:hover{transform: translateY(-1px); filter: brightness(1.03)}
+    .buyBtn:active{transform: translateY(0) scale(.99)}
+    .buyBtn small{display:block; font-weight:900; opacity:.86}
+
+    /* ====== hero ====== */
+    header{padding: 38px 0 10px}
+    .hero{
+      position:relative;
+      border-radius: 28px;
+      overflow:hidden;
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(255,255,255,.10);
+      background:
+        radial-gradient(1200px 650px at 50% 20%, rgba(255,204,102,.12), transparent 55%),
+        linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.80));
+    }
+    .hero::before{
+      content:"";
+      position:absolute;
+      inset:-60px;
+      background:
+        radial-gradient(480px 240px at 22% 18%, rgba(255,255,255,.10), transparent 70%),
+        radial-gradient(520px 260px at 60% 10%, rgba(255,255,255,.08), transparent 72%),
+        radial-gradient(560px 280px at 88% 26%, rgba(255,255,255,.06), transparent 74%);
+      pointer-events:none;
+      opacity:.85;
+      transform: translate3d(0,0,0);
+      will-change: transform;
+    }
+
+    .heroInner{
+      position:relative;
+      padding: 28px 22px 22px;
+      display:grid;
+      grid-template-columns: 1.15fr .85fr;
+      gap: 18px;
+      align-items:center;
+    }
+    @media (max-width: 980px){ .heroInner{grid-template-columns:1fr} }
+
+    .kicker{
+      display:inline-flex; align-items:center; gap:10px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.10);
+      color: rgba(246,241,231,.90);
+      font-size: 12px;
+      font-weight: 900;
+      letter-spacing: .3px;
+    }
+    .spark{
+      width:10px; height:10px; border-radius:99px;
+      background: rgba(255,204,102,.95);
+      box-shadow: 0 0 0 8px rgba(255,204,102,.12);
+    }
+
+    .title{
+      margin: 14px 0 10px;
+      font-size: 34px;
+      line-height:1.08;
+      letter-spacing: -.4px;
+      text-transform: uppercase;
+    }
+    @media (max-width: 520px){ .title{font-size: 28px} }
+
+    .subtitle{
+      margin: 0 0 14px;
+      font-size: 16px;
+      color: var(--muted);
+      line-height: 1.55;
+      max-width: 70ch;
+    }
+    .gold{
+      color: var(--gold);
+      text-shadow: 0 0 22px rgba(255,204,102,.12);
+      font-weight: 980;
+    }
+
+
+    .socialProof{
+      margin-top: 14px;
+      font-size: 14.5px;
+      font-weight: 900;
+      color: rgba(246,241,231,.90);
+      background: rgba(255,255,255,.05);
+      border: 1px solid rgba(255,204,102,.22);
+      padding: 10px 14px;
+      border-radius: 999px;
+      display: inline-block;
+      box-shadow: 0 0 28px rgba(255,204,102,.10);
+    }
+
+    .heroRight{
+      display:grid;
+      gap: 12px;
+    }
+    .priceCard{
+      background: rgba(255,255,255,.07);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 22px;
+      padding: 14px;
+    }
+    .priceRow{
+      display:flex; align-items:flex-end; justify-content:space-between; gap:12px;
+    }
+    .priceLabel{
+      font-size: 12px;
+      letter-spacing: .4px;
+      font-weight: 950;
+      color: rgba(246,241,231,.85);
+      text-transform: uppercase;
+    }
+    .price{
+      font-size: 46px;
+      font-weight: 980;
+      letter-spacing: -.8px;
+      color: var(--ink);
+      line-height:1;
+    }
+    .price small{font-size: 14px; font-weight: 900; color: rgba(246,241,231,.78)}
+    .meta{
+      margin-top: 8px;
+      font-size: 13px;
+      color: rgba(246,241,231,.78);
+      line-height: 1.45;
+    }
+
+    /* mockup area */
+    .mockGrid{
+      margin-top: 10px;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      align-items:center;
+    }
+    @media (max-width: 980px){ .mockGrid{grid-template-columns:1fr} }
+
+    .stage{
+      background: rgba(0,0,0,.22);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 22px;
+      padding: 16px;
+      position:relative;
+      overflow:hidden;
+    }
+    .stage::after{
+      content:"";
+      position:absolute; inset:-40px;
+      background: radial-gradient(520px 240px at 50% 0%, rgba(255,204,102,.12), transparent 70%);
+      pointer-events:none;
+      opacity:.7;
+    }
+    .stageInner{
+      position:relative;
+      display:flex;
+      gap: 14px;
+      align-items:center;
+      justify-content:center;
+      flex-wrap:wrap;
+    }
+
+    .bookFloat{
+      width: 92px;
+      transform: perspective(900px) rotateY(-12deg) translateY(0);
+      transform-origin: left center;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.10);
+      box-shadow: 0 18px 32px rgba(0,0,0,.48);
+      transition: transform .18s ease, filter .18s ease;
+      will-change: transform;
+      background: rgba(255,255,255,.04);
+    }
+    .bookFloat.big{width: 150px}
+    .bookFloat:hover{
+      transform: perspective(900px) rotateY(-7deg) translateY(-2px) scale(1.01);
+      filter: brightness(1.02);
+    }
+
+    .stars{
+      display:flex; gap: 6px; align-items:center; justify-content:center;
+      margin-top: 10px;
+      opacity:.95;
+    }
+    .star{
+      width: 18px; height: 18px;
+      filter: drop-shadow(0 0 18px rgba(255,204,102,.18));
+    }
+
+    /* ===== sections ===== */
+    section{padding: 18px 0}
+    .sectionTitle{
+      margin: 0 0 10px;
+      font-size: 34px;
+      letter-spacing: -.4px;
+      text-align:center;
+      font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+    }
+    .sectionTitle .gold{font-family: inherit}
+    .sectionLead{
+      margin: 0 auto 16px;
+      max-width: 78ch;
+      text-align:center;
+      color: var(--muted);
+      line-height:1.55;
+      font-size: 16px;
+    }
+
+    .panel{
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 26px;
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .panelInner{padding: 18px}
+    .grid2{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      align-items:start;
+    }
+    @media (max-width: 980px){ .grid2{grid-template-columns:1fr} }
+
+    .card{
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 22px;
+      padding: 16px;
+    }
+
+    /* “Este material es para ti” list */
+    .fitBox{
+      background: rgba(255,255,255,.05);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 22px;
+      padding: 16px;
+    }
+    .fitTitle{
+      text-align:center;
+      margin: 0 0 10px;
+      font-size: 26px;
+      font-weight: 950;
+      letter-spacing: -.2px;
+      color: rgba(246,241,231,.95);
+    }
+    .fitList{margin: 0; padding: 0; list-style:none; display:grid; gap: 12px}
+    .fitItem{
+      display:flex; gap: 10px; align-items:flex-start;
+      padding: 12px 12px;
+      border-radius: 18px;
+      background: rgba(0,0,0,.22);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .tick{
+      width: 28px; height: 28px; border-radius: 12px;
+      background: rgba(25,199,91,.18);
+      border: 1px solid rgba(25,199,91,.30);
+      display:grid; place-items:center;
+      flex:0 0 auto;
+      margin-top: 1px;
+    }
+    .tick svg{width: 16px; height: 16px; fill: rgba(25,199,91,1)}
+    .fitItem p{
+  margin:0;
+  color: rgba(246,241,231,.86);
+  line-height:1.45;
+}
+
+
+    /* ===== catalog clicável ===== */
+    .catalog{
+      display:grid;
+      grid-template-columns: repeat(3, minmax(0,1fr));
+      gap: 14px;
+      padding: 14px;
+    }
+    @media (max-width: 980px){ .catalog{grid-template-columns: repeat(2, minmax(0,1fr));} }
+    @media (max-width: 520px){ .catalog{grid-template-columns: 1fr;} }
+
+    .bookCard{
+      position:relative;
+      display:grid;
+      grid-template-columns: 86px 1fr;
+      gap: 12px;
+      padding: 14px;
+      border-radius: 20px;
+      background: rgba(0,0,0,.20);
+      border: 1px solid rgba(255,255,255,.09);
+      cursor:pointer;
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+      overflow:hidden;
+    }
+    .bookCard:hover{
+      transform: translateY(-2px);
+      border-color: rgba(255,204,102,.22);
+      box-shadow: 0 18px 40px rgba(0,0,0,.52);
+    }
+
+    .badgeMini{
+      position:absolute;
+      right: 12px; top: 12px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 950;
+      letter-spacing:.2px;
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(255,255,255,.06);
+      color: rgba(246,241,231,.88);
+    }
+    .badgeMain{ border-color: rgba(255,204,102,.26); color: rgba(255,204,102,.95); }
+    .badgeBonus{ border-color: rgba(25,199,91,.20); color: rgba(191,255,214,.92); }
+
+    .bookThumb{
+      width:86px;
+      height:122px;
+      object-fit:cover;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,.10);
+      background: rgba(255,255,255,.04);
+      box-shadow: 0 18px 32px rgba(0,0,0,.55);
+      transform: perspective(900px) rotateY(-12deg);
+      transform-origin: left center;
+      transition: transform .18s ease, filter .18s ease;
+      will-change: transform;
+    }
+    .bookCard:hover .bookThumb{
+      transform: perspective(900px) rotateY(-7deg) translateY(-2px);
+      filter: brightness(1.03);
+    }
+
+    .bookMeta b{
+      display:block;
+      font-size: 14.5px;
+      line-height: 1.15;
+      margin-top: 2px;
+      color: rgba(246,241,231,.95);
+    }
+    .bookMeta p{
+      margin: 7px 0 0;
+      color: rgba(246,241,231,.78);
+      font-size: 13.3px;
+      line-height: 1.35;
+    }
+    .hint{
+      margin: 0;
+      padding: 0 14px 14px;
+      color: rgba(246,241,231,.70);
+      font-size: 12.5px;
+      line-height: 1.45;
+    }
+
+    /* ===== bonus list (sem capa) ===== */
+    .miniBonus{
+      display:grid;
+      grid-template-columns: repeat(2, minmax(0,1fr));
+      gap: 12px;
+    }
+    @media (max-width: 720px){ .miniBonus{grid-template-columns:1fr} }
+    .miniItem{
+      background: rgba(0,0,0,.20);
+      border: 1px solid rgba(255,255,255,.09);
+      border-radius: 20px;
+      padding: 14px;
+    }
+    .miniItem b{color: rgba(246,241,231,.95)}
+    .miniItem p{margin:6px 0 0; color: rgba(246,241,231,.78); line-height:1.45; font-size: 13.3px}
+
+    /* ===== garantia + faq ===== */
+    .guarantee{
+      display:flex; gap: 14px; align-items:center;
+      flex-wrap:wrap;
+    }
+    .seal2{
+      width: 84px; height: 84px; border-radius: 999px;
+      background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.18), transparent 60%),
+                  linear-gradient(135deg, rgba(255,204,102,.55), rgba(255,184,90,.12));
+      border: 1px solid rgba(255,204,102,.25);
+      box-shadow: 0 22px 60px rgba(255,204,102,.10);
+      display:grid; place-items:center;
+      flex:0 0 auto;
+      font-weight: 980;
+      color: rgba(7,6,10,.9);
+    }
+    .gText h3{
+      margin:0; font-size: 30px; letter-spacing:-.4px;
+      font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+    }
+    .gText p{margin:6px 0 0; color: rgba(246,241,231,.78); line-height:1.55}
+
+    details{
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,.10);
+    }
+    summary{
+      cursor:pointer;
+      list-style:none;
+      font-weight: 950;
+      color: rgba(246,241,231,.95);
+    }
+    summary::-webkit-details-marker{display:none}
+    .answer{
+      margin-top: 8px;
+      color: rgba(246,241,231,.78);
+      line-height:1.55;
+      font-size: 14px;
+    }
+
+    footer{
+      padding: 30px 0 46px;
+      border-top: 1px solid rgba(255,255,255,.10);
+      margin-top: 10px;
+      color: rgba(246,241,231,.70);
+      font-size: 12.5px;
+    }
+
+    /* ===== reveal animation ===== */
+    .reveal{opacity:0; transform: translateY(14px); transition: opacity .65s ease, transform .65s ease}
+    .reveal.show{opacity:1; transform: translateY(0)}
+    @media (prefers-reduced-motion: reduce){
+      .reveal{opacity:1; transform:none; transition:none}
+      .hero::before{display:none}
+    }
+
+    /* ===== modal ===== */
+    .modalOverlay{
+      position:fixed; inset:0;
+      background: rgba(0,0,0,.58);
+      backdrop-filter: blur(10px);
+      display:none;
+      align-items:center;
+      justify-content:center;
+      padding: 18px;
+      z-index: 999;
+    }
+    .modalOverlay.open{display:flex;}
+    .modal{
+      width:min(920px, 100%);
+      border-radius: 24px;
+      overflow:hidden;
+      background: rgba(12,8,6,.92);
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 30px 90px rgba(0,0,0,.70);
+    }
+    .modalHeader{
+      display:flex; align-items:center; justify-content:space-between; gap:12px;
+      padding: 14px 16px;
+      background: linear-gradient(135deg, rgba(255,204,102,.14), rgba(0,0,0,.0));
+      border-bottom: 1px solid rgba(255,255,255,.10);
+    }
+    .modalHeader b{font-size: 13px; letter-spacing:.35px; color: rgba(255,204,102,.95); text-transform: uppercase}
+    .closeBtn{
+      appearance:none; border:0; cursor:pointer;
+      width:44px; height:44px; border-radius: 16px;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      color: rgba(246,241,231,.92);
+      font-weight: 950;
+      transition: transform .15s ease, filter .15s ease;
+    }
+    .closeBtn:hover{transform: scale(1.02); filter: brightness(1.03)}
+    .closeBtn:active{transform: scale(.98)}
+    .modalBody{
+      display:grid;
+      grid-template-columns: 300px 1fr;
+      gap: 16px;
+      padding: 16px;
+    }
+    @media (max-width: 860px){ .modalBody{grid-template-columns:1fr;} }
+
+    .modalCover{
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 22px;
+      padding: 14px;
+      display:flex; align-items:center; justify-content:center;
+    }
+    .modalCover img{
+      width: 230px;
+      max-width: 100%;
+      height:auto;
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,.12);
+      box-shadow: 0 22px 40px rgba(0,0,0,.70);
+    }
+
+    .modalInfo h4{
+      margin:0 0 6px;
+      font-size: 24px;
+      letter-spacing:-.2px;
+      color: rgba(246,241,231,.98);
+    }
+    .modalInfo .sub{
+      margin:0 0 12px;
+      color: rgba(246,241,231,.78);
+      line-height:1.55;
+      font-size: 14.5px;
+    }
+    .modalGrid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    @media (max-width: 560px){ .modalGrid{grid-template-columns:1fr} }
+    .modalBox{
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 22px;
+      padding: 14px;
+    }
+    .modalBox b{
+      display:block;
+      color: rgba(255,204,102,.95);
+      font-size: 13px;
+      letter-spacing:.25px;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .modalBox ul{
+      margin:0; padding-left: 18px;
+      color: rgba(246,241,231,.80);
+      line-height:1.45;
+      font-size: 13.5px;
+    }
+    .modalFooter{
+      padding: 12px 16px 16px;
+      border-top: 1px solid rgba(255,255,255,.10);
+      color: rgba(246,241,231,.72);
+      font-size: 12.5px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- TOPBAR: 1 botão -->
+  <div class="topbar">
+    <div class="wrap topbarInner">
+      <div class="brand">
+        <div class="seal" aria-hidden="true"></div>
+        <div>
+          <h1>CÓDIGO DIVINO</h1>
+          <p>Claridad • Profundidad • Poder espiritual</p>
+        </div>
+      </div>
+
+      <button id="buyBtn" class="buyBtn" type="button">
+        QUIERO COMPRENDER LA BIBLIA
+        <small>$6.90 USD • Acceso inmediato</small>
+      </button>
+    </div>
+  </div>
+
+  <header class="wrap">
+    <div class="hero reveal" id="hero">
+      <div class="heroInner">
+        <div>
+          <div class="kicker"><span class="spark"></span> Estudio visual • Didáctico • Claro</div>
+
+          <div class="title">
+            COMPRENDE LA BIBLIA<br>
+            <span class="gold">DE PRINCIPIO A FIN</span><br>
+            con claridad, profundidad y poder espiritual
+          </div>
+
+          <p class="subtitle">
+            Un estudio visual y didáctico que revela los misterios y enseñanzas de toda la Biblia
+            de forma clara, organizada y accesible para todos.
+          </p>
+
+
+          <div class="socialProof">
+            ✨ Dios está despertando hambre por Su Palabra en miles de cristianos… <span class="gold">¿tú también vas a dar este paso?</span>
+          </div>
+
+          <div class="mockGrid">
+            <div class="stage">
+              <div class="stageInner" aria-label="Libros destacados">
+                <img class="bookFloat big" src="codigo-divino.png" alt="Código Divino">
+                <img class="bookFloat" src="genesis.png" alt="Génesis explicado">
+                <img class="bookFloat" src="exodo.png" alt="Éxodo explicado">
+                <img class="bookFloat" src="30-dias-oracion.png" alt="30 Días de Oración">
+                <img class="bookFloat" src="bosquejos-josue.png" alt="Bosquejos de Josué">
+              </div>
+
+              <div class="stars" aria-label="Calificación">
+                <svg class="star" viewBox="0 0 24 24" fill="none"><path fill="rgba(255,204,102,.95)" d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.1-.6L12 2 9.1 8.7 2 9.3l5.4 4.7-1.6 7z"/></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="none"><path fill="rgba(255,204,102,.95)" d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.1-.6L12 2 9.1 8.7 2 9.3l5.4 4.7-1.6 7z"/></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="none"><path fill="rgba(255,204,102,.95)" d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.1-.6L12 2 9.1 8.7 2 9.3l5.4 4.7-1.6 7z"/></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="none"><path fill="rgba(255,204,102,.95)" d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.1-.6L12 2 9.1 8.7 2 9.3l5.4 4.7-1.6 7z"/></svg>
+                <svg class="star" viewBox="0 0 24 24" fill="none"><path fill="rgba(255,204,102,.95)" d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.1-.6L12 2 9.1 8.7 2 9.3l5.4 4.7-1.6 7z"/></svg>
+              </div>
+            </div>
+
+            <div class="priceCard">
+              <div class="priceRow">
+                <div>
+                  <div class="priceLabel">Precio único (combo completo)</div>
+                  <div class="price">$6.90 <small>USD</small></div>
+                </div>
+                <div style="text-align:right">
+                  <div class="priceLabel">Acceso</div>
+                  <div style="font-weight:950; color: rgba(246,241,231,.92)">Inmediato</div>
+                </div>
+              </div>
+              <div class="meta">Producto digital • Compra segura por Hotmart • Lee en celular, tablet o computadora.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="fitTitle">Este material es para ti si:</div>
+          <ul class="fitList">
+            <li class="fitItem">
+              <div class="tick" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M9.2 16.6 4.8 12.2l1.4-1.4 3 3 8.6-8.6 1.4 1.4z"/></svg>
+              </div>
+              <p>Quieres comprender verdaderamente cada capítulo y versículo de la Biblia.</p>
+            </li>
+            <li class="fitItem">
+              <div class="tick" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M9.2 16.6 4.8 12.2l1.4-1.4 3 3 8.6-8.6 1.4 1.4z"/></svg>
+              </div>
+              <p>Quieres enseñar a otros de manera didáctica y espiritual.</p>
+            </li>
+            <li class="fitItem">
+              <div class="tick" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M9.2 16.6 4.8 12.2l1.4-1.4 3 3 8.6-8.6 1.4 1.4z"/></svg>
+              </div>
+              <p>Buscas una forma visual y práctica de memorizar historias y enseñanzas.</p>
+            </li>
+            <li class="fitItem">
+              <div class="tick" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M9.2 16.6 4.8 12.2l1.4-1.4 3 3 8.6-8.6 1.4 1.4z"/></svg>
+              </div>
+              <p>Te sientes frustrado al leer la Biblia sin entender su mensaje profundo.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- QUÉ INCLUYE -->
+  <section class="wrap reveal">
+    <h2 class="sectionTitle">¿Qué incluye <span class="gold">CÓDIGO DIVINO</span>?</h2>
+    <p class="sectionLead">
+      Recibirás una biblioteca espiritual completa con estudios visuales, devocionales y explicaciones
+      que te ayudarán a comprender y aplicar la Palabra con más claridad.
+    </p>
+
+    <div class="panel">
+      <div class="panelInner">
+        <div style="display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; padding: 0 0 10px;">
+          <div style="font-weight:950; letter-spacing:.25px; color: rgba(246,241,231,.92); text-transform:uppercase">
+            Libros incluidos (haz clic para ver un resumen)
+          </div>
+          <div style="color: rgba(246,241,231,.70); font-size:12.5px">
+            *El botón de compra está arriba (único).
+          </div>
+        </div>
+
+        <div class="catalog" id="catalog" aria-label="Catálogo de libros">
+          <div class="bookCard" data-book="codigo">
+            <span class="badgeMini badgeMain">Principal</span>
+            <img class="bookThumb" src="codigo-divino.png" alt="Código Divino">
+            <div class="bookMeta">
+              <b>Código Divino</b>
+              <p>Guía principal para comprender la Biblia con claridad, orden y aplicación práctica.</p>
+            </div>
+          </div>
+
+          <div class="bookCard" data-book="genesis">
+            <span class="badgeMini badgeBonus">Bono</span>
+            <img class="bookThumb" src="genesis.png" alt="Génesis explicado">
+            <div class="bookMeta">
+              <b>Génesis explicado</b>
+              <p>Estudio versículo por versículo: origen, promesas y propósito de Dios.</p>
+            </div>
+          </div>
+
+          <div class="bookCard" data-book="exodo">
+            <span class="badgeMini badgeBonus">Bono</span>
+            <img class="bookThumb" src="exodo.png" alt="Éxodo explicado">
+            <div class="bookMeta">
+              <b>Éxodo explicado</b>
+              <p>Comprensión clara y edificante del mensaje de liberación y obediencia.</p>
+            </div>
+          </div>
+
+          <div class="bookCard" data-book="oracion">
+            <span class="badgeMini badgeBonus">Bono</span>
+            <img class="bookThumb" src="30-dias-oracion.png" alt="30 Días de Oración">
+            <div class="bookMeta">
+              <b>30 Días de Oración</b>
+              <p>Rutina devocional para fortalecer tu vida de oración durante 30 días.</p>
+            </div>
+          </div>
+
+          <div class="bookCard" data-book="josue">
+            <span class="badgeMini badgeBonus">Bono</span>
+            <img class="bookThumb" src="bosquejos-josue.png" alt="170 Bosquejos de Josué">
+            <div class="bookMeta">
+              <b>170 Bosquejos de Josué</b>
+              <p>Material listo para estudio, enseñanza y mensajes con aplicación práctica.</p>
+            </div>
+          </div>
+
+          <!-- opcional: se você adicionar levitico.png na pasta, ele aparece -->
+          <div class="bookCard" data-book="levitico" id="leviticoCard" style="display:none">
+            <span class="badgeMini badgeBonus">Bono</span>
+            <img class="bookThumb" src="levitico.png" alt="Levítico explicado">
+            <div class="bookMeta">
+              <b>Levítico explicado</b>
+              <p>Guía espiritual para entender leyes, ofrendas y enseñanzas aplicadas a la vida.</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="hint">
+          Tip: en móvil, toca una tarjeta para ver el resumen. En desktop, pasa el mouse para ver el efecto 3D.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BONOS EXCLUSIVOS -->
+  <section class="wrap reveal">
+    <h2 class="sectionTitle">¡Bonos exclusivos por <span class="gold">tiempo limitado</span>!</h2>
+    <p class="sectionLead">
+      Al adquirir <b>CÓDIGO DIVINO</b> hoy, recibirás totalmente <b>GRATIS</b> estos regalos exclusivos para complementar
+      tu estudio y crecimiento espiritual.
+    </p>
+
+    <div class="panel">
+      <div class="panelInner">
+        <div class="miniBonus">
+          <div class="miniItem">
+            <b>🎁 BONO 1 — Los 10 Mandamientos: Historia y Aplicación Espiritual</b>
+            <p>Descubre el origen, el significado profundo y cómo aplicarlos en la vida moderna de forma clara.</p>
+          </div>
+          <div class="miniItem">
+            <b>🎁 BONO 2 — Los Milagros de Jesús</b>
+            <p>Explora cada milagro con contexto bíblico, reflexión y lección espiritual para tu día a día.</p>
+          </div>
+          <div class="miniItem">
+            <b>🎁 BONO 3 — Historias Bíblicas para toda la familia</b>
+            <p>Una colección visual y resumida ideal para enseñar a niños y adultos en casa o en la iglesia.</p>
+          </div>
+          <div class="miniItem">
+            <b>🎁 BONO 4 — Devocionales de Poder (30 días)</b>
+            <p>Reflexiones, versículos clave y oraciones para fortalecer tu conexión diaria con Dios.</p>
+          </div>
+          <div class="miniItem">
+            <b>🎁 BONO 5 — Manual de Interpretación Bíblica para Principiantes</b>
+            <p>Principios simples para leer e interpretar la Biblia con más seguridad y claridad.</p>
+          </div>
+          <div class="miniItem">
+            <b>✅ Todo el combo por $6.90 USD</b>
+            <p>Pago único. Acceso inmediato. Compra segura por Hotmart.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GARANTÍA + FAQ -->
+  <section class="wrap reveal">
+    <div class="panel">
+      <div class="panelInner grid2">
+        <div class="card">
+          <div class="guarantee">
+            <div class="seal2">7D</div>
+            <div class="gText">
+              <h3>Garantía incondicional de 7 días</h3>
+              <p>
+                Tranquilo: tu compra está <b>100% protegida</b>. Si por cualquier motivo el contenido no cumple lo prometido,
+                tienes hasta <b>7 días</b> para solicitar el reembolso completo según las reglas de la plataforma.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 style="margin:0 0 10px; font-family: ui-serif, Georgia, 'Times New Roman', Times, serif; font-size: 30px; letter-spacing:-.3px">
+            Preguntas frecuentes (FAQ)
+          </h3>
+
+          <details open>
+            <summary>¿Cómo recibiré el material después de la compra?</summary>
+            <div class="answer">Una vez confirmado el pago, Hotmart te entrega el acceso digital. No necesitas esperar ni pagar envío.</div>
+          </details>
+          <details>
+            <summary>¿Puedo leerlo en el celular?</summary>
+            <div class="answer">Sí. Puedes leer en celular, tablet o computadora (según las opciones disponibles en Hotmart).</div>
+          </details>
+          <details>
+            <summary>¿Es para principiantes?</summary>
+            <div class="answer">Sí. Está diseñado para ser claro y accesible, incluso si estás empezando tu estudio bíblico.</div>
+          </details>
+          <details>
+            <summary>¿Hay más de un botón de compra?</summary>
+            <div class="answer">No. Dejamos un único botón (arriba) para mantener la página limpia y objetiva.</div>
+          </details>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      © <span id="year"></span> — Código Divino | Combo completo por <b>$6.90 USD</b> • Producto digital.
+    </div>
+  </footer>
+
+  <!-- MODAL (resumen al clicar libro) -->
+  <div class="modalOverlay" id="modalOverlay" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-label="Resumen del libro">
+      <div class="modalHeader">
+        <b id="modalTag">Resumen</b>
+        <button class="closeBtn" id="closeModal" aria-label="Cerrar">✕</button>
+      </div>
+
+      <div class="modalBody">
+        <div class="modalCover">
+          <img id="modalImg" src="" alt="">
+        </div>
+
+        <div class="modalInfo">
+          <h4 id="modalTitle">Título</h4>
+          <p class="sub" id="modalDesc">Descripción</p>
+
+          <div class="modalGrid">
+            <div class="modalBox">
+              <b>Lo que vas a aprender</b>
+              <ul id="modalLearn"></ul>
+            </div>
+            <div class="modalBox">
+              <b>Cómo usarlo</b>
+              <ul id="modalUse"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modalFooter">
+        ✅ Todo esto está incluido en el combo por <b>$6.90 USD</b>. (Botón único de compra arriba)
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // =========================
+// CONFIGURA TU LINK HOTMART
+// =========================
+const HOTMART_LINK = "https://pay.hotmart.com/P104125014U";
+
+    // Botón único de compra
+    document.getElementById("buyBtn").addEventListener("click", () => {
+      if (!HOTMART_LINK || HOTMART_LINK.includes("TU-LINK")) {
+        alert("Configura tu enlace de Hotmart en el código (HOTMART_LINK).");
+        return;
+      }
+      window.location.href = HOTMART_LINK;
+    });
+
+    // Año
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Reveal on scroll
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) {
+        if (e.isIntersecting) e.target.classList.add('show');
+      }
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // Parallax suave no brilho do hero
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const hero = document.getElementById('hero');
+    if (!reduceMotion && hero) {
+      window.addEventListener('scroll', () => {
+        const y = window.scrollY || 0;
+        hero.style.transform = `translate3d(0, ${Math.min(y * 0.02, 10)}px, 0)`;
+      }, { passive:true });
+    }
+
+    // Mostrar Levítico automaticamente se o arquivo existir (sem quebrar)
+    (function showLeviticoIfExists(){
+      const img = new Image();
+      img.onload = () => { const c = document.getElementById('leviticoCard'); if(c) c.style.display='grid'; };
+      img.onerror = () => {};
+      img.src = "levitico.png";
+    })();
+
+    // Modal: dados dos livros
+    const BOOKS = {
+      codigo: {
+        tag: "Principal",
+        title: "Código Divino",
+        img: "codigo-divino.png",
+        desc: "Material principal para comprender la Biblia de principio a fin con claridad, profundidad y aplicación práctica.",
+        learn: [
+          "Cómo leer con contexto (sin perderte)",
+          "Conexión entre historias y enseñanzas",
+          "Aplicación práctica para la vida diaria"
+        ],
+        use: [
+          "Lee 10–15 min al día",
+          "Anota: idea, verdad, acción",
+          "Revisa 1 vez por semana"
+        ]
+      },
+      genesis: {
+        tag: "Bono",
+        title: "Génesis explicado",
+        img: "genesis.png",
+        desc: "Estudio profundo y accesible de cada versículo de Génesis, con reflexiones y aplicaciones claras.",
+        learn: [
+          "El mensaje central de Génesis",
+          "Promesas y propósito de Dios",
+          "Lectura versículo por versículo sin confusión"
+        ],
+        use: [
+          "Lee por capítulos o secciones",
+          "Resume 1 enseñanza por capítulo",
+          "Aplica una acción concreta"
+        ]
+      },
+      exodo: {
+        tag: "Bono",
+        title: "Éxodo explicado",
+        img: "exodo.png",
+        desc: "Comprensión clara y edificante del mensaje de Éxodo, explicado de forma accesible para todo lector.",
+        learn: [
+          "Liberación y propósito espiritual",
+          "Principios de fe y obediencia",
+          "Cómo aplicar lecciones hoy"
+        ],
+        use: [
+          "Lee 15 min con calma",
+          "Responde: ¿qué me enseña hoy?",
+          "Comparte 1 insight con alguien"
+        ]
+      },
+      oracion: {
+        tag: "Bono",
+        title: "30 Días de Oración",
+        img: "30-dias-oracion.png",
+        desc: "Guía devocional para fortalecer tu vida de oración durante 30 días, con enfoque y constancia.",
+        learn: [
+          "Cómo construir hábito espiritual",
+          "Oración con enfoque y propósito",
+          "Constancia sin sentirte abrumado"
+        ],
+        use: [
+          "1 lectura + 1 oración por día",
+          "Marca tu progreso (30 días)",
+          "Repite el ciclo cuando quieras"
+        ]
+      },
+      josue: {
+        tag: "Bono",
+        title: "170 Bosquejos de Josué",
+        img: "bosquejos-josue.png",
+        desc: "Resúmenes temáticos con enseñanzas, aplicaciones y estructura clara para estudio y enseñanza.",
+        learn: [
+          "Temas listos para enseñar",
+          "Aplicaciones prácticas inmediatas",
+          "Estructuras claras para grupos"
+        ],
+        use: [
+          "Elige un bosquejo por semana",
+          "Adáptalo a tu grupo o familia",
+          "Finaliza con una oración"
+        ]
+      },
+      levitico: {
+        tag: "Bono",
+        title: "Levítico explicado",
+        img: "levitico.png",
+        desc: "Guía espiritual para entender el propósito de las leyes, ofrendas y enseñanzas de Levítico aplicadas a la vida.",
+        learn: [
+          "Sentido espiritual de leyes y ofrendas",
+          "Santidad, orden y adoración",
+          "Aplicación a la vida moderna"
+        ],
+        use: [
+          "Lee por secciones (no a la carrera)",
+          "Subraya principios repetidos",
+          "Define 1 práctica aplicable"
+        ]
+      }
+    };
+
+    const overlay = document.getElementById('modalOverlay');
+    const closeBtn = document.getElementById('closeModal');
+    const modalTag = document.getElementById('modalTag');
+    const modalImg = document.getElementById('modalImg');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalDesc = document.getElementById('modalDesc');
+    const modalLearn = document.getElementById('modalLearn');
+    const modalUse = document.getElementById('modalUse');
+
+    function openModal(key){
+      const b = BOOKS[key];
+      if(!b) return;
+
+      modalTag.textContent = b.tag;
+      modalTitle.textContent = b.title;
+      modalDesc.textContent = b.desc;
+
+      modalImg.src = b.img;
+      modalImg.alt = b.title;
+
+      modalLearn.innerHTML = b.learn.map(x => `<li>${x}</li>`).join('');
+      modalUse.innerHTML = b.use.map(x => `<li>${x}</li>`).join('');
+
+      overlay.classList.add('open');
+      overlay.setAttribute('aria-hidden','false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(){
+      overlay.classList.remove('open');
+      overlay.setAttribute('aria-hidden','true');
+      document.body.style.overflow = '';
+    }
+
+    document.getElementById('catalog')?.addEventListener('click', (e) => {
+      const card = e.target.closest('.bookCard');
+      if(!card) return;
+      openModal(card.dataset.book);
+    });
+
+    closeBtn?.addEventListener('click', closeModal);
+    overlay?.addEventListener('click', (e) => {
+      if(e.target === overlay) closeModal();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if(e.key === 'Escape' && overlay.classList.contains('open')) closeModal();
+    });
+  </script>
+</body>
+</html>
