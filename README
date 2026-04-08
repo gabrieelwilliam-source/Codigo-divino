@@ -1,0 +1,42 @@
+# Código Divino
+
+Landing page de infoproduto criada para apresentar uma oferta digital com foco em conversão, prova social e direcionamento para checkout externo.
+
+## Link ao vivo
+https://divinocode.shop/
+
+## Sobre o projeto
+Este projeto foi desenvolvido como uma página de vendas para um produto digital, com estrutura pensada para conversão.
+
+A página inclui:
+- headline principal
+- benefícios
+- bônus
+- prova social
+- FAQ
+- garantia
+- CTA para compra
+
+## Funcionalidades
+- layout responsivo
+- estrutura de vendas
+- organização de seções por objeção e benefício
+- CTA para checkout externo
+- página otimizada para leitura e conversão
+
+## Tecnologias utilizadas
+- HTML
+- CSS
+- JavaScript
+
+## Meu papel no projeto
+Desenvolvimento front-end, organização da estrutura da landing page, responsividade e publicação.
+
+## Objetivo
+Criar uma página de vendas clara, objetiva e orientada à conversão para um produto digital.
+
+## Melhorias futuras
+- testes A/B
+- analytics
+- SEO
+- refatoração para React ou Next.js
